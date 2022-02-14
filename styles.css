@@ -42,3 +42,31 @@ body {
 .nav-link-wrapper a:hover {
     color: black;
 }
+
+.nav-drop-wrapper {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.nav-drop-wrapper a {
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav-drop-content {
+    display: none;
+}
+.nav-drop-wrapper:hover .nav-drop-content {
+    display: block;
+}
+.nav-drop-content a {
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+.nav-drop-content a:hover {
+    color: black;
+    border-bottom: 1px solid black;
+}
