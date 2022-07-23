@@ -1,87 +1,86 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8" />
-  <title>SAK</title>
-  <link rel="shortcut icon" href="images/unnamed.ico">
-</head>
+  <head>
+    <meta charset="utf-8" />
+    <title>SAK</title>
+    <link rel="shortcut icon" href="images/unnamed.ico">
+  </head>
 
-<style>
-  body, html {
-    height: 100%;
-    margin: 0;
-  }
-  
-  #first {
-    width: 300px;
-    float:left;
-  }
+  <style>
+    body, html {
+      height: 100%;
+      margin: 0;
+    }
+    
+    #first {
+      width: 300px;
+      float:left;
+    }
 
-  #second {
-    padding-top: 44px;
-    float: right;
-  }
-  .bgimg {
-    background-image: url('images/mountains.jpg');
-    height: 100%;
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    color: #2e89df;
-    font-family: "Courier New", Courier, monospace;
-    font-size: 25px;
-  }
+    #second {
+      padding-top: 44px;
+      float: right;
+    }
+    .bgimg {
+      background-image: url('images/mountains.jpg');
+      height: 100%;
+      background-position: center;
+      background-size: cover;
+      position: relative;
+      color: #2e89df;
+      font-family: "Courier New", Courier, monospace;
+      font-size: 25px;
+    }
 
-  .background-tint {
-    background-color: rgba(0, 0, 0, 0.75);
-    background-blend-mode: multiply;
-  }
+    .background-tint {
+      background-color: rgba(0, 0, 0, 0.75);
+      background-blend-mode: multiply;
+    }
 
-  .topleft {
-    position: absolute;
-    color: #df7d2e;
-    top: 0;
-    left: 16px;
-  }
+    .topleft {
+      position: absolute;
+      color: #df7d2e;
+      top: 0;
+      left: 16px;
+    }
 
-  .bottomleft {
-    position: absolute;
-    bottom: 0;
-    left: 16px;
-  }
+    .bottomleft {
+      position: absolute;
+      bottom: 0;
+      left: 16px;
+    }
 
-  .middle {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    width: 650px;
-  }
+    .middle {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      width: 650px;
+    }
 
-  hr {
-    margin: auto;
-    width: 40%;
-  }
-</style>
-<body>
-
-<div class="bgimg background-tint">
-  <div class="topleft">
-    <p>SAK</p>
-  </div>
-  <div class="middle">
-    <div id = "first">
-      <h1>COMING SOON</h1>
-      <hr>
-      <p>Connect with me on LinkedIn to get notified when the website is live!</p>
+    hr {
+      margin: auto;
+      width: 40%;
+    }
+  </style>
+  <body>
+  <div class="bgimg background-tint">
+    <div class="topleft">
+      <p>SAK</p>
     </div>
-    <div id="second">
-      <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="siddharth-kini" data-version="v1"></div>    
-      
+    <div class="middle">
+      <div id = "first">
+        <h1>COMING SOON</h1>
+        <hr>
+        <p>Connect with me on LinkedIn to get notified when the website is live!</p>
+      </div>
+      <div id="second">
+        <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="siddharth-kini" data-version="v1"></div>    
+        
+      </div>
     </div>
   </div>
-</div>
-</body>
-<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+  </body>
+  <script src="profile.js"></script>
 </html>
